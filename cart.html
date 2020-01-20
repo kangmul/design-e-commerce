@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ammar Store</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- icon fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- judul cart -->
+    <div class="container cart-header">
+        <div class="row my-3 text-center">
+            <div class="col">
+                <h3 class="text-capitalize">your cart</h3>
+                <p>Pastikan barang anda terbayar lunas</p>
+            </div>
+        </div>
+    </div>
+    <!-- akhir judul cart -->
+
+    <!-- breadcumb -->
+    <div class="container">
+        <nav aria-label="breadcrumb " role="navigation">
+            <ol class="breadcrumb bg-transparent pl-0 cart-breadcrumb text-capitalize">
+                <li class="breadcrumb-item"><a href="#">home</a></li>
+                <li class="breadcrumb-item active " aria-current="page">cart checkout</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- breadcumb -->
+
+    <!-- detail produk yang dibeli -->
+    <section id="checkout" class="bg-transparent">
+        <div class="container">
+            <div class="row" style="margin-bottom: 100px">
+                <div class="col-lg-8">
+                    <h6 class="text-capitalize">your items</h6>
+                    <!-- row item yang dibeli -->
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="assets/img/cart/1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="text-capitalize mb-2">jeans papp</h5>
+                            <p class="text-uppercase m-0" style="color:#b7b7b7">idr 285.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button tyep="button" class="btn btn-sm text-white" style="background-color:#EAEAEF"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">02</span>
+                            <button tyep="button" class="btn btn-sm btn-success text-white"><i
+                                    class="fas fa-plus-circle"></i>
+                        </div>
+                        <div class="col-2">
+                            <button tyep="button" class="btn btn-sm btn-danger text-white"><i
+                                    class="fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                    <!-- row akhir dari item yang dibeli -->
+                    <!-- row item yang dibeli -->
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="assets/img/cart/1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="text-capitalize mb-2">zalia</h5>
+                            <p class="text-uppercase m-0" style="color:#b7b7b7">idr 469.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button tyep="button" class="btn btn-sm text-white" style="background-color:#EAEAEF"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button tyep="button" class="btn btn-sm btn-success text-white"><i
+                                    class="fas fa-plus-circle"></i>
+                        </div>
+                        <div class="col-2">
+                            <button tyep="button" class="btn btn-sm btn-danger text-white"><i
+                                    class="fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                    <!-- row akhir dari item yang dibeli -->
+                    <!-- row item yang dibeli -->
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="assets/img/cart/1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="text-capitalize mb-2">manama</h5>
+                            <p class="text-uppercase m-0" style="color:#b7b7b7">idr 875.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button tyep="button" class="btn btn-sm text-white" style="background-color:#EAEAEF"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button tyep="button" class="btn btn-sm btn-success text-white"><i
+                                    class="fas fa-plus-circle"></i>
+                        </div>
+                        <div class="col-2">
+                            <button tyep="button" class="btn btn-sm btn-danger text-white"><i
+                                    class="fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                    <!-- row akhir dari item yang dibeli -->
+                    <h6 class="text-capitalize mt-5">
+                        your address
+                    </h6>
+                    <form>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control form-control-sm col-sm-5" id="address" name="address"
+                                placeholder="Alamat lengkap">
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address 2</label>
+                            <input type="text" class="form-control form-control-sm col-sm-5" id="address2 "
+                                name="address" placeholder="Alamat tambahan">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <select class="form-control form-control-sm col-sm-5" id="city">
+                                <option>Select City</option>
+                                <option>Jakarta</option>
+                                <option>Bandung</option>
+                                <option>Semarang</option>
+                                <option>Jogja</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select class="form-control form-control-sm col-sm-5" id="country">
+                                <option>Select Country</option>
+                                <option>Indonesia</option>
+                                <option>Malaysia</option>
+                                <option>Singapore</option>
+                                <option>Thailand</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card rounded-0 checkout-detail">
+                        <div class="card-body">
+                            <p class="text-capitalize">informasi biaya</p>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">jeans papp</h6>
+                                    <p style="color:#b7b7b7">2 item</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-success">IDR 570.000</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">zalia</h6>
+                                    <p style="color:#b7b7b7">20 item</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-success">IDR 9.380.000</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">manama</h6>
+                                    <p style="color:#b7b7b7">20 item</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-success">IDR 9.380.000</p>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">courier</h6>
+                                    <p style="color:#b7b7b7">JNT Express</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-success">IDR 417.000</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">tax</h6>
+                                    <p style="color:#b7b7b7">Negara 20%</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-success">IDR 356.600</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="text-capitalize">eid promo</h6>
+                                    <p style="color:#b7b7b7">10 % OFF</p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-danger"> - IDR 32.000</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="text-capitalize">total harga</h5>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p class="text-primary text-uppercase"> <b>idr 573.000</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-between">
+                        <div class="col">
+                            <button type="button" class="btn btn-block"
+                                style="background-color:#EAEAEF; color:'#adadad'">Cancel</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-block btn-warning text-white">Checkout</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir detail cart -->
+
+
+
+    <!-- footer -->
+    <footer class="p-5 border-top">
+        <div class="container">
+            <div class="row justify-content-beetween">
+                <div class="col-1">
+                    <a href="">
+                        <img src="assets/img/logo_small.png">
+                    </a>
+                </div>
+                <div class="col text-right">
+                    <a href="">
+                        <img src="assets/img/social/fb.png">
+                    </a>
+                    <a href="">
+                        <img src="assets/img/social/ig.png">
+                    </a>
+                    <a href="">
+                        <img src="assets/img/social/twitter.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-2 justify-content-beetween pr-0">
+                <div class="col-5">
+                    <p class="text-capitalize">All rights reserved by ammar store copyright 2020</p>
+                </div>
+                <div class="col-7">
+                    <nav class="nav justify-content-end text-uppercase">
+                        <a href="" class="nav-link active">jobs</a>
+                        <a href="" class="nav-link">developer</a>
+                        <a href="" class="nav-link">terms</a>
+                        <a href="" class="nav-link pr-0">privacy policy</a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ahhir footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+    <!-- font awesome -->
+    <script src="assets/js/all.js"></script>
+
+    <!-- custom script -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
