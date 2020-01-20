@@ -1,11 +1,12 @@
 $(document).ready(function () {
     const yurl = window.location.pathname;
-    console.log(yurl);
-    $('.nav-link').on('click', function () {
-
-        const id = $(this).attr("id");
-        console.log(yurl);
-        $('.nav-item').removeClass('active');
-        $(this).addClass('active');
-    })
+    $('.dropdown-item').on('click', function () {
+        const id = $(this).attr("href");
+        const seksion = $(id);
+        console.log(seksion.offset());
+        console.log($('body').scrollTop(seksion.offset().top));
+        // $('body').animate({
+        //     scrollTop: seksion.offset().top - 500
+        // }, 1250, 'swing');
+    });
 })
